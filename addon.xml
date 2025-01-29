@@ -1,4 +1,4 @@
-<addon id="script.library.books" version="1.0.0" name="Library Books" provider-name="YourName">
+<addon id="script.library.books" version="0.0.1" name="Library Books" provider-name="fonsolino">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
