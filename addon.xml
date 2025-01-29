@@ -1,0 +1,22 @@
+<addon id="script.library.books" version="1.0.0" name="Library Books" provider-name="YourName">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+
+    <extension point="xbmc.python.script" library="default.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Manage your book library</summary>
+        <summary lang="it">Gestisci la tua libreria di libri</summary>
+        
+        <description lang="en">An addon to view, add, and manage books in your library.</description>
+        <description lang="it">Un addon per visualizzare, aggiungere e gestire libri nella tua libreria.</description>
+        
+        <platform>all</platform>
+        
+        <assets>
+            <icon>resources/art/icon.png</icon>
+            <fanart>resources/art/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
